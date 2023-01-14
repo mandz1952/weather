@@ -1,0 +1,45 @@
+
+
+.conteiner {
+    width: 450px;
+    height: 300px;
+    box-shadow: 2px 5px 25px rgba(180, 180, 180, 0.25);
+}
+
+.conteiner > div {
+    display: flex;
+}
+
+.conteiner > div:not(:first-child) {
+    margin: 29px 0 0 0
+}
+
+.p {
+    height: 100%;
+    margin: 0 0 0 10px;
+    align-self: center;
+    color: #939CB0;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+span {
+    color: #000;
+    margin: 0 0 0 10px;
+}
+
+.divImg {
+    margin: 0;
+}
+
+.divImg {
+
+}
+
+.img {
+    width: 25px;
+    height: 25px;
+    margin: 10px 5px 5px 5px;
+    border-radius: 50px;
+    box-shadow: 1px 4px 10px -1px rgba(71, 147, 255, 0.2);
+}

@@ -1,0 +1,27 @@
+.conteiner {
+    width: 150px;
+    height: 140px;
+    box-shadow: 2px 5px 25px rgba(180, 180, 180, 0.25);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.conteiner p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #939CB0;
+}
+
+.conteiner p:not(:last-child) {
+    margin: 5px 0 0 0;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #4793FF;
+}
